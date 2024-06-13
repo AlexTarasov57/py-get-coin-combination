@@ -37,4 +37,3 @@ def test_coin_combination_integer(
 ) -> None:
     with pytest.raises(typeerror):
         get_coin_combination(coin)
-
